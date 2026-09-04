@@ -1,0 +1,31 @@
+{
+  "name": "ideaforge-api",
+  "version": "1.0.0",
+  "description": "Initial REST API backend foundation for IdeaForge",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "neo4j-driver": "^6.2.0",
+    "pdf-parse": "1.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.7",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
